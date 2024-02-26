@@ -10,6 +10,8 @@ resource repository for ceng444 language processors course @metu, 2023-2024 spri
 
 ! please email the TA if you cannot access the mail group.
 
+**prerequisites:** ceng242, ceng280, and ceng331 knowledge is expected, but no official prerequisites.
+
 ## recommended textbooks
 - *Compilers: Principles, Techniques and Tools (Second Edition) by Aho, A.V, Ullman J.D, Sethi R., Lam M.S.* (a.k.a. the Dragon Book)
 - *Engineering a Compiler (Second Edition) by Cooper, K.D., Torczon, L.*
