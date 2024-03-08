@@ -1,4 +1,4 @@
-### assignments
+# assignments
 
 there will be 3 assignments in total, with the first one being divided into two parts.
 
