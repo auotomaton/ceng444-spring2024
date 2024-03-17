@@ -9,7 +9,7 @@ void MyFlexLexer::reportToken(const char *label)
    cout << "Recognized " << label << "(" << YYText() << ") line:" << yylineno << endl;
 }
 
-FlexLexer *lexer=new MyFlexLexer();
+MyFlexLexer *lexer=new MyFlexLexer();
 
 int main(int argc, char **argv)
 {
@@ -17,7 +17,8 @@ int main(int argc, char **argv)
 
    if (is.is_open())
    {
-      while (lexer->yylex(&is) != 0)
+      lexer->switch_streams(&is);
+      while (lexer->yylex() != 0)
          ;
 
       is.close();
