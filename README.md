@@ -23,11 +23,11 @@ resource repository for ceng444 language processors course @metu, 2023-2024 spri
 - **back end implementation:** target architectures, optimizations, register allocation, compiler runtime, x64 code generation
 
 ## grading
-**10%** Project I (Take Home - syntax analysis using Flex + Bison)  
-**15%** Project II (Take Home - scoped variables, type arithmetic)  
-**30%** Project III (Take Home - complete language processor test case)  
+**10% + 5% bonus** Project I (Take Home - syntax analysis using Flex + Bison)  
+**40%** Project II (Take Home - intermediate representations)  
+**15% bonus** Project III (Take Home - native code generation)  
 **20%** Midterm  
-**25%** Final 
+**30%** Final 
 
 ## tools
 - Flex for scanner implementation.
