@@ -1,7 +1,7 @@
 # ceng444-spring2024
 resource repository for ceng444 language processors course @metu, 2023-2024 spring.
 
-## logistics
+### logistics
 
 **schedule:** fridays, 14.40-17.30, BMB5  
 **instructor:** Erkan İnan  
@@ -12,26 +12,36 @@ resource repository for ceng444 language processors course @metu, 2023-2024 spri
 
 **prerequisites:** ceng242, ceng280, and ceng331 knowledge is expected, but no official prerequisites.
 
-## recommended textbooks
+### recommended textbooks
 - *Compilers: Principles, Techniques and Tools (Second Edition) by Aho, A.V, Ullman J.D, Sethi R., Lam M.S.* (a.k.a. the Dragon Book)
 - *Engineering a Compiler (Second Edition) by Cooper, K.D., Torczon, L.*
 
-## topics
+### topics
 - **lexical analysis:** tokens, regular expressions, NFA – DFA generators and recognizers
 - **syntactic analysis:** context free grammars, parse trees, AST, parsing strategies and algorithms
 - **semantic analysis:** meaning in common imperative languages, type systems, SDD, representation of meaning
 - **back end implementation:** target architectures, optimizations, register allocation, compiler runtime, x64 code generation
 
-## grading
+### grading
 **10% + 5% bonus** Project I (Take Home - syntax analysis using Flex + Bison)  
 **40%** Project II (Take Home - intermediate representations)  
 **15% bonus** Project III (Take Home - native code generation)  
 **20%** Midterm  
 **30%** Final 
 
-## tools
+### tools
 - Flex for scanner implementation.
 - Bison in combination with Flex for parser experiments
 - Antlr as an alternative tool for scanning + parsing
 - Eclipse for C++ for generating experimental executables with support of language processor runtime, which will also be developed by the student
 - Nasm for assembly processing and code inspection.
+
+## 2023-2024 Gazozuna Kompaylır ödülü
+(the official award of CENG444 course, as seen [here](https://github.com/bozsahin/ceng444)) 
+
+- Ahmet Eren Çolak
+- Erencan Ceyhan
+- Murat Bolu
+- Yunus Emre Keleş
+
+
